@@ -1,5 +1,6 @@
 /* GIT HUB */
 /* GIT H.U.B--- */
+/* Version 1.1 */
 using Microsoft.EntityFrameworkCore;
 using CuidadoEquino.App.Dominio;
 namespace CuidadoEquino.App.Persistencia;
