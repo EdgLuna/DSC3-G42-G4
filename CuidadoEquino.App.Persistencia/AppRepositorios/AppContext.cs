@@ -1,4 +1,4 @@
-/* GIT HUB */
+/// <summary> Equino sin domar </summary> ///
 /* GIT H.U.B--- */
 /* Version 1.1 */
 using Microsoft.EntityFrameworkCore;
