@@ -1,6 +1,4 @@
-/// <summary> Equino sin domar </summary> ///
-/* GIT H.U.B--- */
-/* Version 1.4 */
+/// ******* ///
 using Microsoft.EntityFrameworkCore;
 using CuidadoEquino.App.Dominio;
 namespace CuidadoEquino.App.Persistencia;
