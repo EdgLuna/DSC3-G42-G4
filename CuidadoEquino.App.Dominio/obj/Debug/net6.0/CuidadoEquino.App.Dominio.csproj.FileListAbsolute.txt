@@ -1,0 +1,12 @@
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\bin\Debug\net6.0\CuidadoEquino.App.Dominio.deps.json
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\bin\Debug\net6.0\CuidadoEquino.App.Dominio.dll
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\bin\Debug\net6.0\CuidadoEquino.App.Dominio.pdb
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\CuidadoEquino.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\CuidadoEquino.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\CuidadoEquino.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\CuidadoEquino.App.Dominio.AssemblyInfo.cs
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\CuidadoEquino.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\CuidadoEquino.App.Dominio.dll
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\refint\CuidadoEquino.App.Dominio.dll
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\CuidadoEquino.App.Dominio.pdb
+C:\Users\Johana\ProgramaEquino\CuidadoEquino.App\CuidadoEquino.App.Dominio\obj\Debug\net6.0\ref\CuidadoEquino.App.Dominio.dll

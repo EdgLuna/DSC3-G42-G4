@@ -1,0 +1,52 @@
+﻿@page
+@model CuidadoEquino.App.Frontend.Pages.listasModel
+@{
+}
+
+<html>
+
+   <head>
+      <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+   </head>
+
+   <body>
+    
+    <h1> Modulo Gestión de Equinos</h1>
+
+      <table class ="table" id="tablon">
+
+         @foreach (var item in Model.mylista)
+         {
+
+              <tr>
+                  <td>
+                     @item
+                  </td>
+                  <td>
+                  <form >
+                   
+                   <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre"/>
+                    <button type="submit">Save</button>
+                  </form>
+                  </td>
+
+                  <td>
+                  <form >
+                   
+                   <label for="cedula">Cedula:</label>
+                    <input type="text" cedu="cedula"/>
+                    <button type="submit">Save</button>
+                  </form>
+                  </td>
+             </tr>
+
+          }
+
+
+        </table>
+    
+   </body>
+
+
+</html>

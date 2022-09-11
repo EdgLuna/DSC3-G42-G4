@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CuidadoEquino.App.Frontend/1.0.0": {
+        "runtime": {
+          "CuidadoEquino.App.Frontend.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CuidadoEquino.App.Frontend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
