@@ -4,49 +4,36 @@
 }
 
 <html>
+   
+<head>
+   <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
 
-   <head>
-      <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-   </head>
+<body>
 
-   <body>
-    
-    <h1> Modulo Gestión de Equinos</h1>
 
-      <table class ="table" id="tablon">
+   <form action="" id="form">
+      <h2 id="h2"> NUEVO EQUINO </h2>
+      <table class="table">
 
          @foreach (var item in Model.mylista)
          {
+            <tr>
+               <td>@item
+                  <input type="text" name="nombre" id="input" />
+               </td>
+            </tr>
 
-              <tr>
-                  <td>
-                     @item
-                  </td>
-                  <td>
-                  <form >
-                   
-                   <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre"/>
-                    <button type="submit">Save</button>
-                  </form>
-                  </td>
+         }
 
-                  <td>
-                  <form >
-                   
-                   <label for="cedula">Cedula:</label>
-                    <input type="text" cedu="cedula"/>
-                    <button type="submit">Save</button>
-                  </form>
-                  </td>
-             </tr>
+      <img src="~/img/nuevoequino.jpg"  class = "img-fluid" />
+      </table>
+      <button type="submit" id="boton">Guardar</button>
 
-          }
+ 
+   </form>
 
-
-        </table>
-    
-   </body>
+</body>
 
 
 </html>

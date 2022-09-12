@@ -15,9 +15,45 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: aqua;
+  background:rgb(204, 218, 232);
 }
 
-#tablon{
- background-color: aquamarine;
+#form{
+  width: 800px;
+  text-align: center;
+  margin: 500px;
+  background:rgb(153, 193, 231);
+  padding: 10px 20px ;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  font-size: 25px;
+
+
 }
+
+#h2{
+   color: rgb(0, 0, 0);
+   text-align: center;
+   margin: 0;
+   font-size: 35px;
+   margin-bottom: 20px;
+}
+
+#input{
+
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+#boton{
+  background: #4b6bbd;
+  color: #fff;
+  padding: 20px;
+}
+
+
+
