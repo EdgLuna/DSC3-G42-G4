@@ -1,5 +1,5 @@
 ﻿@page
-@model CuidadoEquino.App.Frontend.Pages.listasModel
+@model CuidadoEquino.App.Frontend.Pages.listasModel3
 @{
 }
 
@@ -11,13 +11,16 @@
 
 <body>
 
-<div>
+
 
    <form action="" id="form">
-      <h2 id="h2"> NUEVO EQUINO </h2>
+      <h2 id="h2"> BUSCAR EQUINO </h2>
+              <input type="text" name="nombre" id="input" placeholder= "Ingrese nombre"/>
+               <button type="submit" id="boton" >Buscar</button>
+
       <table class="table">
 
-         @foreach (var item in Model.mylista)
+         @foreach (var item in Model.mylista3)
          {
             <tr>
                <td>@item
@@ -27,9 +30,8 @@
 
          }
 
-      <img src="~/img/nuevoequino.jpg"  class = "img-fluid" />
+      <img src="~/img/buscarequino.jpg"  class = "img-fluid" />
       </table>
-      <button type="submit" id="boton">Guardar</button>
 
  
    </form>

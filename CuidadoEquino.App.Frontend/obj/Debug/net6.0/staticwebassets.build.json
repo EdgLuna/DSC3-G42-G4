@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QtI2Ai8EdgOE0n0kWFbNLTvnLNCHvfCKBYKfetncYCs=",
+  "Hash": "tvfhQXiAXsKSQjBee2Y1Zc0SDbEo3mQWwusSj3DD8OA=",
   "Source": "CuidadoEquino.App.Frontend",
   "BasePath": "_content/CuidadoEquino.App.Frontend",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Frontend\\wwwroot\\img\\buscarequino.jpg",
+      "SourceId": "CuidadoEquino.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Frontend\\wwwroot\\",
+      "BasePath": "_content/CuidadoEquino.App.Frontend",
+      "RelativePath": "img/buscarequino.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\buscarequino.jpg"
     },
     {
       "Identity": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Frontend\\wwwroot\\img\\Graffiti_stencil.jpg",
