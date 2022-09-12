@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\CuidadoEquino.App.Persistencia\CuidadoEquino.App.Persistencia.csproj" />
+    <ProjectReference Include="..\CuidadoEquino.App.Dominio\CuidadoEquino.App.Dominio.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>

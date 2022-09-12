@@ -1,0 +1,38 @@
+﻿@page
+@model CuidadoEquino.App.Frontend.Pages.listasModel2
+@{
+}
+
+<html>
+   
+<head>
+   <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+
+
+   <form action="" id="form">
+      <h2 id="h2"> REGISTRAR VETERINARIO </h2>
+      <table class="table">
+
+         @foreach (var item in Model.mylista2)
+         {
+            <tr>
+               <td>@item
+                  <input type="text" name="nombre" id="input" />
+               </td>
+            </tr>
+
+         }
+
+      <img src="~/img/veterinario.jpg"  class = "img-fluid" />
+      </table>
+      <button type="submit" id="boton">Guardar</button>
+
+   </form>
+
+</body>
+
+
+</html>
