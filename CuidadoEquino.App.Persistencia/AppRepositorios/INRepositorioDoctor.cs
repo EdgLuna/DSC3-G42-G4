@@ -1,4 +1,4 @@
-using System.Collections.Generic;  //22092022 a las 2200 j y E
+using System.Collections.Generic;  //22092022 a las 2200 J y E
 using CuidadoEquino.App.Dominio;
  
 namespace CuidadoEquino.App.Persistencia
