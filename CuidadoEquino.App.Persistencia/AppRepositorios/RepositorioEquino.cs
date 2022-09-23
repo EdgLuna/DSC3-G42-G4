@@ -18,6 +18,17 @@ namespace CuidadoEquino.App.Persistencia
             return EquinoAdicionado.Entity;
 
         }
+         void INRepositorioEquino.DeleteEquino(int idequino)
+        {
+            var EquinoEncontrado = _AppContext.Equinos.FirstOrDefault(p=>p.Id==idequino); //Id proviene de clase Persona por herencia
+            if (EquinoEncontrado == null)
+            {
+                return;
+            }
+            _AppContext.Equinos.Remove(EquinoEncontrado);
+            _AppContext.SaveChanges();
+        }
+
 
         IEnumerable<Equino> INRepositorioEquino.GetAllEquinos()
         {
@@ -31,10 +42,19 @@ namespace CuidadoEquino.App.Persistencia
 
             return _AppContext.Equinos.FirstOrDefault(e => e.Id ==idequino);
         }
-
-
-
-
-
+         Equino INRepositorioEquino.UpdateEquino(Equino equino)
+        {
+            var EquinoEncontrado = _AppContext.Equinos.FirstOrDefault(p=>p.Id==equino.Id); //Id proviene de clase Persona por herencia
+            if (EquinoEncontrado != null)
+            {
+                EquinoEncontrado.Nombre=equino.Nombre;
+                EquinoEncontrado.FechaNacimiento=equino.FechaNacimiento;
+                EquinoEncontrado.Color=equino.Color;
+                EquinoEncontrado.Genero=equino.Genero;
+                EquinoEncontrado.Raza=equino.Raza;                
+                _AppContext.SaveChanges();
+            }
+            return EquinoEncontrado;
+        }
     }
 }

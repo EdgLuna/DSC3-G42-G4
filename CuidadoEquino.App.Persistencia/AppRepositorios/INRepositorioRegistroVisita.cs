@@ -6,12 +6,9 @@ namespace CuidadoEquino.App.Persistencia
     public interface INRepositorioRegistroVisita
     {
         RegistroVisita AddRegistroVisita(RegistroVisita rvisita);
-       // void DeletePaciente(int idpaciente);
-        //IEnumerable<Paciente> GetAllPacientes(); // IEnumetable es un tipo definido en c#
-       // Paciente GetPaciente(int idpaciente);
-       // Paciente UpdatePaciente(Paciente paciente);
-    }
- 
-    
- 
+        void DeleteRegistroVisita(int idrvisita);
+        IEnumerable<RegistroVisita>GetAllRegistroVisitas(); // IEnumetable es un tipo definido en c#
+        RegistroVisita GetRegistroVisita(int idrvisita);
+        RegistroVisita UpdateRegistroVisita(RegistroVisita rvisita);
+    } 
 }

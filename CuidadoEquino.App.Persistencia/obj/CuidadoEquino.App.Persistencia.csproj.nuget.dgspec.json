@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj": {}
+    "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj": {
+    "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj",
         "projectName": "CuidadoEquino.App.Dominio",
-        "projectPath": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Johana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Dominio\\obj\\",
+        "projectPath": "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Johana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,30 +65,38 @@
         }
       }
     },
-    "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj": {
+    "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj",
         "projectName": "CuidadoEquino.App.Persistencia",
-        "projectPath": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Johana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Persistencia\\obj\\",
+        "projectPath": "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Persistencia\\CuidadoEquino.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Johana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Johana\\ProgramaEquino\\CuidadoEquino.App\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj"
+              "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj": {
+                "projectPath": "C:\\ProgramaEquino\\DSC3-G42-G4\\CuidadoEquino.App.Dominio\\CuidadoEquino.App.Dominio.csproj"
               }
             }
           }

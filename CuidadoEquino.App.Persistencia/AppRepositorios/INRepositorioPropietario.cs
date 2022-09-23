@@ -6,12 +6,9 @@ namespace CuidadoEquino.App.Persistencia
     public interface INRepositorioPropietario
     {
         Propietario AddPropietario(Propietario propietario);
-       // void DeletePaciente(int idpaciente);
-        //IEnumerable<Paciente> GetAllPacientes(); // IEnumetable es un tipo definido en c#
-       // Paciente GetPaciente(int idpaciente);
-       // Paciente UpdatePaciente(Paciente paciente);
+        void DeletePropietario(int idpropietario);
+        IEnumerable<Propietario> GetAllPropietarios(); // IEnumetable es un tipo definido en c#
+        Propietario GetPropietario(int idpropietario);
+        Propietario UpdatePropietario(Propietario propietario);
     }
- 
-    
- 
 }

@@ -18,41 +18,43 @@ namespace CuidadoEquino.App.Persistencia
             return DoctorAdicionado.Entity;
 
         }
-        /*
-        void INRepositorioPaciente.DeletePaciente(int idpaciente)
+        
+        void INRepositorioDoctor.DeleteDoctor(int iddoctor)
         {
-            var PacienteEncontrado = _AppContext.Pacientes.FirstOrDefault(p=>p.Id==idpaciente); //Id proviene de clase Persona por herencia
-            if (PacienteEncontrado == null)
+            var DoctorEncontrado = _AppContext.Doctores.FirstOrDefault(p=>p.Id==iddoctor); //Id proviene de clase Persona por herencia
+            if (DoctorEncontrado == null)
             {
                 return;
             }
-            _AppContext.Pacientes.Remove(PacienteEncontrado);
+            _AppContext.Doctores.Remove(DoctorEncontrado);
             _AppContext.SaveChanges();
         }
 
-        IEnumerable<Paciente> INRepositorioPaciente.GetAllPacientes()
+        IEnumerable<Doctor> INRepositorioDoctor.GetAllDoctores()
         {
-            return _AppContext.Pacientes;
+            return _AppContext.Doctores;
         }
 
-        Paciente INRepositorioPaciente.GetPaciente(int idpaciente)
+        Doctor INRepositorioDoctor.GetDoctor(int iddoctor)
         {        
-            var PacienteEncontrado = _AppContext.Pacientes.FirstOrDefault(p=>p.Id==idpaciente); //Id proviene de clase Persona por herencia
+            var DoctorEncontrado = _AppContext.Doctores.FirstOrDefault(p=>p.Id==iddoctor); //Id proviene de clase Persona por herencia
           
-            return PacienteEncontrado;
+            return DoctorEncontrado;
         }
 
-        Paciente INRepositorioPaciente.UpdatePaciente(Paciente paciente)
+        Doctor INRepositorioDoctor.UpdateDoctor(Doctor doctor)
         {
-            var PacienteEncontrado = _AppContext.Pacientes.FirstOrDefault(p=>p.Id==paciente.Id); //Id proviene de clase Persona por herencia
-            if (PacienteEncontrado != null)
+            var DoctorEncontrado = _AppContext.Doctores.FirstOrDefault(p=>p.Id==doctor.Id); //Id proviene de clase Persona por herencia
+            if (DoctorEncontrado != null)
             {
-                PacienteEncontrado.Nombre=paciente.Nombre;
-                PacienteEncontrado.Apellidos=paciente.Apellidos;
-                //Incluir demás Atributos
+                DoctorEncontrado.Nombres=doctor.Nombres;
+                DoctorEncontrado.Apellidos=doctor.Apellidos;
+                DoctorEncontrado.Direccion=doctor.Direccion;
+                DoctorEncontrado.Telefono=doctor.Telefono;
+                DoctorEncontrado.TarjetaProfesional=doctor.TarjetaProfesional;
                 _AppContext.SaveChanges();
             }
-            return PacienteEncontrado;
-        }*/
+            return DoctorEncontrado;
+        }
     }
 }
