@@ -1,0 +1,43 @@
+﻿@page
+@model CuidadoEquino.App.Frontend.Pages.detallesModel
+@{
+
+
+}
+
+<h2> Datos del Equino</h2>
+
+
+<div>
+
+    Id Equino : @Model.equino.Id
+
+</div>
+<div>
+    Nombre: @Model.equino.Nombre
+
+</div>
+<div>
+    Fecha de nacimiento: @Model.equino.FechaNacimiento
+
+</div>
+<div>
+
+
+</div>
+<div>
+    Genero: @Model.equino.Genero
+
+</div>
+<div>
+    Color: @Model.equino.Color
+
+</div>
+
+<div>
+    Raza :@Model.equino.Raza
+
+</div>
+
+
+<a asp-page="./listasequino" class="btn-default">Volver a la lista de Equinos</a>

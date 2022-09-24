@@ -1,0 +1,64 @@
+﻿@page
+@model CuidadoEquino.App.Frontend.Pages.editarModel
+@{
+}
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <div>
+
+        <form action="" method="post"  id="form">
+
+            <h2 id="h2"> EDITAR DATOS DEL EQUINO </h2>
+
+            <input type="hidden" asp-for="Equino.Id" />
+
+            <div class="form-grup">
+                <label asp-for="Equino.Id"></label>
+                <input asp-for="Equino.Id" class="form-control">
+                <span class="text-danger" asp-validation-for="Equino.Id"></span>
+            </div>
+            <div class="form-grup">
+                <label asp-for="Equino.Nombre"></label>
+                <input asp-for="Equino.Nombre" class="form-control">
+                <span class="text-danger" asp-validation-for="Equino.Nombre"></span>
+            </div>
+            <div class="form-grup">
+                <label asp-for="Equino.FechaNacimiento"></label>
+                <input asp-for="Equino.FechaNacimiento" class="form-control">
+                <span class="text-danger" asp-validation-for="Equino.FechaNacimiento"></span>
+            </div>
+            <div class="form-grup">
+                <label asp-for="Equino.Genero"></label>
+                <input asp-for="Equino.Genero" class="form-control">
+                <span class="text-danger" asp-validation-for="Equino.Genero"></span>
+            </div>
+            <div class="form-grup">
+                <label asp-for="Equino.Color"></label>
+                <input asp-for="Equino.Color"propietario.Email" class="form-control">
+                <span class="text-danger" asp-validation-for="Equino.Color"></span>
+            </div>
+            <div class="form-grup">
+                <label asp-for="Equino.Raza"></label>
+                <input asp-for="Equino.Raza" class="form-control">
+                <span class="text-danger" asp-validation-for="Equino.Raza"></span>
+            </div>
+
+            <br>
+            <button type="submit" id="boton" class="btn btn-primary">Guardar Modificaciones del Equino</button>
+
+
+        </form>
+
+        <a asp-page="./listasequino" class="btn-default">Volver a la lista de Equinos</a>
+
+</body>
+
+
+</html>

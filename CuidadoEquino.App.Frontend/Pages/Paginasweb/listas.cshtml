@@ -4,37 +4,81 @@
 }
 
 <html>
-   
+
 <head>
    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 
 <body>
 
-<div>
+   <div>
 
-   <form action="" id="form">
-      <h2 id="h2"> NUEVO EQUINO </h2>
-      <table class="table">
-
-         @foreach (var item in Model.mylista)
-         {
+      <form method="post" action="" id="form">
+         
+         <h2 id="h2"> NUEVO EQUINO </h2>
+         <table class="table">
             <tr>
-               <td>@item
-                  <input type="text" name="nombre" id="input" />
-               </td>
+               
+               <div>
+                  <td><label asp-for="Equino.Nombre" class="from-label"></label></td>
+                  <td><input asp-for="Equino.Nombre" class="from-control" />
+                     <span asp-validation-for="Equino.Nombre" class="text-danger"></span>
+                  </td>
+
+               </div>
             </tr>
+            <br>
+            <tr>
+               <div calss="mb-3">
+                  <td><label asp-for="Equino.FechaNacimiento" class="from-label"></label></td>
+                  <td><input asp-for="Equino.FechaNacimiento" class="from-control" />
+                     <span asp-validation-for="Equino.FechaNacimiento" class="text-danger"></span>
+                  </td>
 
-         }
+               </div>
+            </tr>
+            <br>
+            <tr>
+               <div calss="mb-3">
+                  <td><label asp-for="Equino.Genero" class="from-label"></label></td>
+                  <td><input asp-for="Equino.Genero" class="from-control" />
+                     <span asp-validation-for="Equino.Genero" class="text-danger"></span>
+                  </td>
 
-      <img src="~/img/nuevoequino.jpg"  class = "img-fluid" />
-      </table>
-      <button type="submit" id="boton">Guardar</button>
+               </div>
+            </tr>
+            <br>
+            <tr>
+               <div calss="mb-3">
+                  <td><label asp-for="Equino.Color" class="from-label"></label></td>
+                  <td><input asp-for="Equino.Color" class="from-control" />
+                  <span asp-validation-for="Equino.Color" class="text-danger"></span>
+                  </td>
 
- 
-   </form>
+               </div>
+            </tr>
+            <br>
+            <tr>
+               <div calss="mb-3">
+                  <td> <label asp-for="Equino.Raza" class="from-label"></label></td>
+                  <td><input asp-for="Equino.Raza" class="from-control" />
+                     <span asp-validation-for="Equino.Raza" class="text-danger"></span>
+                  </td>
+                  <br>
+               </div>
+            </tr>
+            <br>
+             <img src="~/img/nuevoequino.jpg" class="img-fluid" />
+
+          
+           
+         </table>
+         <button type="submit" id="boton" class="btn btn-primary">Guardar Equino</button>
 
 
+      </form>
+
+      <a asp-page="./listasequino" class="btn-default">Volver a la lista de Equinos</a>
 
 </body>
 

@@ -1,4 +1,4 @@
-using System.Collections.Generic;  //libreria donde se definen las interfaces
+using System.Collections.Generic;  //22092022 a las 2200 J y E
 using CuidadoEquino.App.Dominio;
  
 namespace CuidadoEquino.App.Persistencia
@@ -6,12 +6,9 @@ namespace CuidadoEquino.App.Persistencia
     public interface INRepositorioDoctor
     {
         Doctor AddDoctor(Doctor doctor);
-       // void DeletePaciente(int idpaciente);
-        //IEnumerable<Paciente> GetAllPacientes(); // IEnumetable es un tipo definido en c#
-       // Paciente GetPaciente(int idpaciente);
-       // Paciente UpdatePaciente(Paciente paciente);
-    }
- 
-    
- 
+        void DeleteDoctor(int iddoctor);
+        IEnumerable<Doctor> GetAllDoctores(); // IEnumetable es un tipo definido en c#
+        Doctor GetDoctor(int iddoctor);
+        Doctor UpdateDoctor(Doctor doctor);
+    }  
 }

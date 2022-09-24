@@ -23,6 +23,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Johana/ProgramaEquino/CuidadoEquino.App/CuidadoEquino.App.Frontend/Pages/Paginasweb/detalles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hc3dlYlxkZXRhbGxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johana/ProgramaEquino/CuidadoEquino.App/CuidadoEquino.App.Frontend/Pages/Paginasweb/editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hc3dlYlxlZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johana/ProgramaEquino/CuidadoEquino.App/CuidadoEquino.App.Frontend/Pages/Paginasweb/eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hc3dlYlxlbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Johana/ProgramaEquino/CuidadoEquino.App/CuidadoEquino.App.Frontend/Pages/Paginasweb/listas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hc3dlYlxsaXN0YXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -35,8 +47,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hc3dlYlxsaXN0YXMyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Johana/ProgramaEquino/CuidadoEquino.App/CuidadoEquino.App.Frontend/Pages/Paginasweb/listas3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hc3dlYlxsaXN0YXMzLmNzaHRtbA==
+[C:/Users/Johana/ProgramaEquino/CuidadoEquino.App/CuidadoEquino.App.Frontend/Pages/Paginasweb/listasequino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hc3dlYlxsaXN0YXNlcXVpbm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Johana/ProgramaEquino/CuidadoEquino.App/CuidadoEquino.App.Frontend/Pages/Privacy.cshtml]

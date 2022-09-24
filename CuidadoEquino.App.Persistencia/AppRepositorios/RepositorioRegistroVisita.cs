@@ -18,41 +18,46 @@ namespace CuidadoEquino.App.Persistencia
             return RegistroVisitaAdicionada.Entity;
 
         }
-        /*
-        void INRepositorioPaciente.DeletePaciente(int idpaciente)
+        
+        void INRepositorioRegistroVisita.DeleteRegistroVisita(int idrvisita)
         {
-            var PacienteEncontrado = _AppContext.Pacientes.FirstOrDefault(p=>p.Id==idpaciente); //Id proviene de clase Persona por herencia
-            if (PacienteEncontrado == null)
+            var RegistroVisitaEncontrado = _AppContext.RegistroVisitas.FirstOrDefault(p=>p.Id==idrvisita); //Id proviene de clase Persona por herencia
+            if (RegistroVisitaEncontrado == null)
             {
                 return;
             }
-            _AppContext.Pacientes.Remove(PacienteEncontrado);
+            _AppContext.RegistroVisitas.Remove(RegistroVisitaEncontrado);
             _AppContext.SaveChanges();
         }
 
-        IEnumerable<Paciente> INRepositorioPaciente.GetAllPacientes()
+        IEnumerable<RegistroVisita> INRepositorioRegistroVisita.GetAllRegistroVisitas()
         {
-            return _AppContext.Pacientes;
+            return _AppContext.RegistroVisitas;
         }
 
-        Paciente INRepositorioPaciente.GetPaciente(int idpaciente)
+        RegistroVisita INRepositorioRegistroVisita.GetRegistroVisita(int idrvisita)
         {        
-            var PacienteEncontrado = _AppContext.Pacientes.FirstOrDefault(p=>p.Id==idpaciente); //Id proviene de clase Persona por herencia
+            var RegistroVisitaEncontrado = _AppContext.RegistroVisitas.FirstOrDefault(p=>p.Id==idrvisita); //Id proviene de clase Persona por herencia
           
-            return PacienteEncontrado;
+            return RegistroVisitaEncontrado;
         }
 
-        Paciente INRepositorioPaciente.UpdatePaciente(Paciente paciente)
+        RegistroVisita INRepositorioRegistroVisita.UpdateRegistroVisita(RegistroVisita rvisita)
         {
-            var PacienteEncontrado = _AppContext.Pacientes.FirstOrDefault(p=>p.Id==paciente.Id); //Id proviene de clase Persona por herencia
-            if (PacienteEncontrado != null)
+            var RegistroVisitaEncontrado = _AppContext.RegistroVisitas.FirstOrDefault(p=>p.Id==rvisita.Id); //Id proviene de clase Persona por herencia
+            if (RegistroVisitaEncontrado != null)
             {
-                PacienteEncontrado.Nombre=paciente.Nombre;
-                PacienteEncontrado.Apellidos=paciente.Apellidos;
-                //Incluir demás Atributos
+                RegistroVisitaEncontrado.Fecha=rvisita.Fecha;
+                RegistroVisitaEncontrado.Temperatura=rvisita.Temperatura;
+                RegistroVisitaEncontrado.Peso=rvisita.Peso;
+                RegistroVisitaEncontrado.FrecuenciaCardiaca=rvisita.FrecuenciaCardiaca;
+                RegistroVisitaEncontrado.FrecuenciaRespiratoria=rvisita.FrecuenciaRespiratoria;
+                RegistroVisitaEncontrado.EstadoAnimo=rvisita.EstadoAnimo;
+                RegistroVisitaEncontrado.Recomendaciones=rvisita.Recomendaciones;
+                RegistroVisitaEncontrado.FormulaMedica=rvisita.FormulaMedica;                
                 _AppContext.SaveChanges();
             }
-            return PacienteEncontrado;
-        }*/
+            return RegistroVisitaEncontrado;
+        }
     }
 }

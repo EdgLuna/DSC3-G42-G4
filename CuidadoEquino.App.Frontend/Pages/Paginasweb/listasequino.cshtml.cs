@@ -12,31 +12,25 @@ using System.Threading.Tasks;
 
 namespace CuidadoEquino.App.Frontend.Pages
 {
-    public class listasModel : PageModel
+    public class listasequinoModel : PageModel
     {
 
+        public readonly INRepositorioEquino repositorioEquino;
 
-        private readonly INRepositorioEquino repositorioEquino;
+        public IEnumerable<Equino> Equino{get;set;}
 
-        public listasModel()
+        public listasequinoModel()
         {
             this.repositorioEquino = new RepositorioEquino(new
             CuidadoEquino.App.Persistencia.AppContext());
+
         }
 
-        [BindProperty]
-
-        public Equino Equino{set;get;}
 
 
-        public IActionResult OnPost()
+        public void OnGet( string filtroBusqueda)
         {
-            repositorioEquino.AddEquino(Equino);
-            return RedirectToPage("./listasequino");
+            Equino = repositorioEquino.GetAllEquinos();
         }
-
-
-
     }
 }
-

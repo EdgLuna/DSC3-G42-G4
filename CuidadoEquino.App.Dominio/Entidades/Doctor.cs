@@ -1,5 +1,5 @@
 using System; 
-namespace CuidadoEquino.App.Dominio 
+namespace CuidadoEquino.App.Dominio //22092022 a las 2200 J y E
 { 
     public class Doctor:Persona
      { 

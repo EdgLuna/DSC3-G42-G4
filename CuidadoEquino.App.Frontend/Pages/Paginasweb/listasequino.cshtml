@@ -1,0 +1,34 @@
+﻿@page
+@model CuidadoEquino.App.Frontend.Pages.listasequinoModel
+@{
+}
+
+
+<h1>Lista de Equinos</h1>
+
+<table class="table">
+
+    @foreach (var equino in Model.Equino)
+    {
+      
+      <tr>
+      
+        <td>@equino.Id </td>
+        <td>@equino.Nombre</td>
+        <td>
+          
+        <a class="btn btn-primary table-btn" asp-page="./detalles" asp-route-idequino="@equino.Id">Detalles
+             <i class="fas fa-info-circle fa-lg" aria-hidden="true"></i>
+             </a>
+        </td>
+     
+        <td><div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
+            <a class="btn btn-warning d-inline" asp-area="" asp-page="./editar" asp-route-idequino="@equino.Id"><i class="fas fa-edit" ></i> Editar</a>
+            <a class="btn btn-danger d-inline" asp-area="" asp-page="./eliminar" asp-route-idequino="@equino.Id"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+        </div></td>
+
+    </tr>  
+    }
+
+</table>
+<a asp-page=".\listas" class="btn btn-primary">Adicionar Equino</a>

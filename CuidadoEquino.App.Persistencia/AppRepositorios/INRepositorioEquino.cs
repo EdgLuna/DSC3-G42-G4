@@ -6,13 +6,10 @@ namespace CuidadoEquino.App.Persistencia
     public interface INRepositorioEquino
     {
         Equino AddEquino(Equino equino);
-        /*
-        void DeletePaciente(int idpaciente);
-        Paciente UpdatePaciente(Paciente paciente);
-        */
-
-        Equino GetEquino(int idequino);
+        void DeleteEquino(int idequino);
         IEnumerable<Equino> GetAllEquinos(); // IEnumetable es un tipo definido en c#
+        Equino GetEquino(int idequino);
+        Equino UpdateEquino(Equino equino);
     }
  
 }
